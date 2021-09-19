@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+:root
+{
+    --mainYellow:#fdbe02;
+    --mainWhite:#fff;
+    --mainBlack:#071013;
+    --mainGrey:#969999;
+    --TransGrey:#rgba(0,0,0.1);
+}
+body
+{
+    color:var(--mainBlack);
+    background: var(--mainWhite);
+}
+.text-slanted
+{
+    font-family: "Calligraffitti" cursive;
+}
