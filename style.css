@@ -116,3 +116,19 @@ body {
 .old-price {
   text-decoration: line-through;
 }
+/* partners */
+.partners {
+  background: var(--mainGrey);
+}
+.carousel-control-prev {
+  font-size: 2.5rem;
+  color: var(--mainBlack);
+  transform: translateX(-200%);
+  text-decoration: none;
+}
+.carousel-control-next {
+  font-size: 2.5rem;
+  color: var(--mainBlack);
+  transform: translateX(200%);
+  text-decoration: none;
+}
