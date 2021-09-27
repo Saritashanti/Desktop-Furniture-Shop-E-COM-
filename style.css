@@ -132,3 +132,10 @@ body {
   transform: translateX(200%);
   text-decoration: none;
 }
+/* newsletter */
+.form-icon {
+  background: var(--mainGrey);
+}
+.form-icon:hover {
+  background: var(--mainYellow);
+}
