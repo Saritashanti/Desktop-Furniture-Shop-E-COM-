@@ -20,6 +20,9 @@ body {
 .text-slanted {
   font-family: 'Calligraffitti' cursive;
 }
+.text-yellow {
+  color: var(--mainYellow);
+}
 .btn-yellow {
   background: var(--mainYellow);
   text-transform: capitalize;
@@ -74,6 +77,9 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  /* display: flex;
+  align-items: center; */
+  /* d-flex align-items-center */
 }
 /* featured section */
 .featured-container {
@@ -138,4 +144,30 @@ body {
 }
 .form-icon:hover {
   background: var(--mainYellow);
+}
+/* skill */
+.skills {
+  background: var(--mainBlack);
+}
+.skill-icon {
+  color: var(--mainYellow);
+  font-size: 1.8rem;
+  padding: 5px;
+}
+/* footer */
+.footer {
+  background: rgba(0, 0, 0, 0.8);
+}
+.footer-title {
+  border: 0.2rem solid var(--mainYellow);
+  padding: 0.4rem;
+}
+.footer-icon {
+  color: var(--mainYellow);
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.footer-icon:hover {
+  color: var(--mainWhite);
 }
